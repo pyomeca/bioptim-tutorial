@@ -1,1 +1,13 @@
-wget -q -O gapminder.csv http://bit.ly/2uh4s3g
+#!/bin/bash
+
+# Clone bioptim
+git clone git@github.com:pyomeca/bioptim.git
+
+# Install ACADOS
+cd bioptim/external
+./acados_install_linux.sh
+mv ../..
+
+# Keep only the examples
+mv bioptim/examples examples 
+rm -rf bioptim

@@ -2,8 +2,4 @@ channels:
 - conda-forge
 - default
 dependencies:
-- biorbd =*=*casadi*
-- bioviz =*=*casadi*
-- scipy
-- numpy
-- packaging
+- bioptim

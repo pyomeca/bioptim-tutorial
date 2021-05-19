@@ -10,4 +10,4 @@ mv ../..
 
 # Keep only the examples
 mv bioptim/examples examples 
-rm -rf bioptim
+# rm -rf bioptim

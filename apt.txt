@@ -1,3 +1,2 @@
 libgl1-mesa-glx
-xorg-x11-server-Xvfb
-libXtst
+libxcb-randr0

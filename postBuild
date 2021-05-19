@@ -4,6 +4,7 @@
 git clone https://github.com/pyomeca/bioptim.git
 
 # Install ACADOS
+conda activate notebook
 cd bioptim/external
 ./acados_install_linux.sh
 cd ../..

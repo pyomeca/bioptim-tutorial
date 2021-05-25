@@ -100,7 +100,6 @@ examples/sandbox
 *.bob
 *.ogv
 
-models/
 
 # Remove ACADOS compilation folder
 c_generated_code

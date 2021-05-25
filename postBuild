@@ -12,7 +12,3 @@ cd ../..
 # Keep only the examples
 mv bioptim/examples examples 
 rm -rf bioptim
-
-# Move the relevent model to a models folder
-mkdir models
-mv examples/getting_started/pendulum.bioMod models/

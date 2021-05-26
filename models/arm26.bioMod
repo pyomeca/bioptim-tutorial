@@ -37,7 +37,7 @@ segment r_humerus_rotation1
         0.05894291073968768    0.0    0.9982613551938856    0.0
         0.0    0.0    0.0    1.0
     rotations z
-    rangesQ	-1 pi
+    rangesQ	-pi pi
 endsegment
 
 
@@ -104,7 +104,7 @@ segment r_ulna_radius_hand_rotation1
         -0.06148106796684942    3.469446951953614e-18    0.9981082497813831    0.0
         0.0    0.0    0.0    1.0
     rotations z
-    rangesQ	0 pi
+    rangesQ	-pi pi
 endsegment
 
 

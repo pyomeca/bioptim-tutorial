@@ -2,4 +2,5 @@ channels:
 - conda-forge
 - default
 dependencies:
+- python >=3.9
 - bioptim >=2.0.1

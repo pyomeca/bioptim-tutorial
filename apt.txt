@@ -1,3 +1,4 @@
 libgl1-mesa-glx
 libxcb-randr0
 libxcb-xinerama0
+xvfb

@@ -1,3 +1,4 @@
+#!/bin/bash
 set -x
 export DISPLAY=:99.0
 which Xvfb

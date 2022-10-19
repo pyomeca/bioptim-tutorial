@@ -5,3 +5,4 @@ dependencies:
 - python >=3.9
 - bioptim >=2.0.1
 - bioviz
+- ipyvtklink

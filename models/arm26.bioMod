@@ -4,6 +4,11 @@ gravity 0 -9.81 0
 // SEGMENT DEFINITION
 
 segment base
+    meshfile mesh/ground_ribs.vtp
+    inertia
+        0 0 0
+        0 0 0
+        0 0 0
 endsegment
 
     // Markers
@@ -25,6 +30,10 @@ segment r_humerus_translation
         0.0    1.0    0.0    -0.007
         0.0    0.0    1.0    0.17
         0.0    0.0    0.0    1.0
+    inertia
+        0 0 0
+        0 0 0
+        0 0 0
 endsegment
 
 
@@ -38,11 +47,19 @@ segment r_humerus_rotation1
         0.0    0.0    0.0    1.0
     rotations z
     rangesQ	-pi pi
+    inertia
+        0 0 0
+        0 0 0
+        0 0 0
 endsegment
 
 
 segment r_humerus_rotation2
     parent r_humerus_rotation1
+    inertia
+        0 0 0
+        0 0 0
+        0 0 0
 endsegment
 
 
@@ -54,6 +71,10 @@ segment r_humerus_rotation3
         1.0    0.0    0.0    0.0
         0.0    0.9982639956056206    0.0588981755023151    0.0
         0.0    0.0    0.0    1.0
+    inertia
+        0 0 0
+        0 0 0
+        0 0 0
 endsegment
 
 
@@ -71,6 +92,7 @@ segment r_humerus
         0.0    0.004551    0.0
         0.0    0.0    0.013193
     com    0 -0.18049599999999999 0
+    meshfile mesh/arm_r_humerus.vtp
 endsegment
 
     // Markers
@@ -92,6 +114,10 @@ segment r_ulna_radius_hand_translation
         0.0    1.0    0.0    -0.2904
         0.0    0.0    1.0    -0.0123
         0.0    0.0    0.0    1.0
+    inertia
+        0 0 0
+        0 0 0
+        0 0 0
 endsegment
 
 
@@ -105,11 +131,19 @@ segment r_ulna_radius_hand_rotation1
         0.0    0.0    0.0    1.0
     rotations z
     rangesQ	-pi pi
+    inertia
+        0 0 0
+        0 0 0
+        0 0 0
 endsegment
 
 
 segment r_ulna_radius_hand_rotation2
     parent r_ulna_radius_hand_rotation1
+    inertia
+        0 0 0
+        0 0 0
+        0 0 0
 endsegment
 
 
@@ -121,6 +155,10 @@ segment r_ulna_radius_hand_rotation3
         1.0    0.0    0.0    0.0
         0.0    0.998777435476196    -0.049433130424779516    0.0
         0.0    0.0    0.0    1.0
+    inertia
+        0 0 0
+        0 0 0
+        0 0 0
 endsegment
 
 
@@ -138,6 +176,7 @@ segment r_ulna_radius_hand
         0.0    0.001571    0.0
         0.0    0.0    0.020062
     com    0 -0.181479 0
+    meshfile mesh/arm_r_ulna.vtp
 endsegment
 
     // Markers

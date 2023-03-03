@@ -2,7 +2,7 @@ channels:
 - conda-forge
 - default
 dependencies:
-- python >=3.9
-- bioptim >=2.0.1
+- python >=3.10
+- bioptim >=3.0.2
 - bioviz
 - ipyvtklink

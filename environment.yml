@@ -3,6 +3,6 @@ channels:
 - default
 dependencies:
 - python >=3.10
-- bioptim >=3.0.2
+- bioptim >=3.0.0
 - bioviz
 - ipyvtklink

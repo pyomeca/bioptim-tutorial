@@ -1,4 +1,4 @@
 channels:
 - conda-forge
 dependencies:
-- bioptim >=3.0.1
+- bioptim >=3.0.0

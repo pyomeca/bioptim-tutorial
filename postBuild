@@ -5,9 +5,6 @@ git clone https://github.com/pyomeca/bioptim.git
 
 # Install ACADOS
 source activate notebook
-cd bioptim/external
-./acados_install_linux.sh
-cd ../..
 
 # Keep only the examples
 mv bioptim/examples examples 

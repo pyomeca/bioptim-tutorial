@@ -1,5 +1,5 @@
+name: bioptim_tutorial
 channels:
 - conda-forge
 dependencies:
-- python ==3.10
-- bioptim >=3.0.0
+- bioptim ==3.3.1
